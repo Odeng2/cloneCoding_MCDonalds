@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='left-header'>
-          <img src='https://www.mcdonalds.co.kr/kor/images/common/logo.png'/>
+          <img className="header-logo" src='https://www.mcdonalds.co.kr/kor/images/common/logo.png'/>
         </div>
         <div className="main-header">
           <p className='header-bar'>Menu</p>
@@ -15,16 +14,18 @@ function App() {
           <p className='header-bar'>Story</p>
         </div>
         <div className='right-header'>
-          <div className='header-button'>
-            <p className='header-button'>임차문의</p>
-            <p className='header-button'>RECRUIT</p>
-            <p className='header-button'>ENG</p>
+          <div className='header-buttons'>
+            <button className='header-button1'>임차문의</button>
+            <button className='header-button2'>RECRUIT</button>
+            <button className='header-button3'>ENG</button>
+          </div>
+            <div className='header-search'>
+            <img className="search-img" src='/search.jpeg'/>
           </div>
         </div>
-        <div className='header-search'>
-          <img src='/search.png'/>
-        </div>
+        
       </header>
+      <hr/>
     </div>
   );
 }
