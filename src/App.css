@@ -130,3 +130,19 @@ hr {
   border: 0;
   /* border-color: #FFD43E; */
 }
+
+
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  align-items: baseline;
+}
+
+nav ul li {
+  list-style: none;
+}
